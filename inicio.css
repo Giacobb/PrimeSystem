@@ -129,14 +129,10 @@ q:after {
 	content: none;
 }
 
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
 
-::placeholder {
-	font-family: "JetBrains Mono";
-	font-weight: 500;
+
+.body{
+	width: 1440px;
 }
 
 .cabecalho {
@@ -145,11 +141,6 @@ table {
 	justify-content: space-between;
 	margin-top: 8px;
 	margin-left: 75px;
-}
-
-.logo {
-	height: 250px;
-	width: 250px;
 }
 
 .conjunto-menu {
@@ -182,62 +173,26 @@ table {
 	text-align: center;
 }
 
-.imagem-inicio {
-	margin-top: 145px;
-	height: 434px;
-}
-
-.menu-inicio {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-}
-
-.nuvem-texto {
-	text-align: center;
-	position: relative;
-	width: 800px;
+.primeira-nuvem{
+	width: auto;
 	height: auto;
-	align-items: center;
-	display: flex;
-
-}
-
-.nuvem-inicio {
-	width: 100%;
-	display: block;
-}
-
-.texto-inicio {
-	font-size: 32px;
-	font-weight: 400;
-	width: 520px;
-	position: absolute;
-	top: 48%;
-	left: 50%;
-	transform: translate(-38%, -82%);
-	text-align: center;
-}
-
-.nuvem-teste{
-	text-align: center;
-	position: relative;
-	width: 220px;
-	height: auto;
-}
-
-.texto-teste {
-	font-size: 32px;
-	font-weight: bold;
-	position: absolute;
-	text-align: center;
-	margin-left: 30px;
-}
-
-.nuvenzinha{
 	display: flex;
 	align-items: center;
-	text-align: center;
-	margin-top: 917px;
 	
 }
+.texto-inicio{
+	font-size:32px;
+	line-height: auto;
+	margin-right: 54px;
+
+}
+
+.inicio{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+
+
